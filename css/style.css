@@ -1,0 +1,31 @@
+#frame {
+  width: 900px;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+
+#slide_tray {
+  position: relative;
+}
+
+.slide {
+  width: 900px;
+  height: 600px;
+  float: left;
+}
+
+#prev, #next {
+  display: block;
+  position: absolute;
+  top: 49%;
+}
+
+#prev {
+  left: 0;
+}
+
+#next {
+  right: 0;
+}
+
