@@ -15,6 +15,12 @@
   float: left;
 }
 
+.slide img, .slide video, .slide iframe {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
 #prev, #next {
   display: block;
   position: absolute;
